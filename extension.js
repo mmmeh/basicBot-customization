@@ -115,7 +115,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: "http://google.com",
+        rulesLink: "http://trilon.org",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
