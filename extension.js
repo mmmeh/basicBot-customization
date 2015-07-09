@@ -102,7 +102,7 @@
         etaRestriction: false,
         welcome: true,
         opLink: null,
-        rulesLink: null,
+        rulesLink: "http://google.com",
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
