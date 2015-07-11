@@ -60,7 +60,7 @@
                 }
             }
         };
-
+      
         //Load the chat package again to account for any changes
         bot.loadChat();
 
@@ -114,12 +114,12 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
+        opLink: "http://trilon.org",
         rulesLink: "http://trilon.org",
-        themeLink: null,
-        fbLink: null,
-        youtubeLink: null,
-        website: null,
+        themeLink: "http://trilon.org",
+        fbLink: "http://trilon.org",
+        youtubeLink: "http://trilon.org",
+        website: "http://trilon.org",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
