@@ -174,7 +174,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: false,
         motdInterval: 5,
-        motd: "season of the year",
+        motd: "You're in Trilon's Plug-DJ Room, have a blast!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
