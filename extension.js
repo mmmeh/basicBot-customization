@@ -69,7 +69,8 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me hi dis is slanted");
+                var sampleText = "hi";
+                    API.sendChat("/me hi dis is slanted" + sampleText + " hi");
                 }
             }
         };
@@ -86,8 +87,7 @@
                 [
                 'sample1!','sample2!!','sample3hi','sample4?!?!'
                 ];
-                var randy = Math.floor(Math.random()*textArray.length);
-                
+                var randy = Math.floor(Math.random()*gifArray.length);
                     API.sendChat("/me Random puppy gif!: " + gifArray[randy].toString());
                 }
             }
