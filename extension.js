@@ -120,7 +120,7 @@
 		'https://upload.wikimedia.org/wikipedia/en/4/45/DJ_Dog.gif'
                 ];
                 var randy = Math.floor(Math.random()*gifArray.length);
-                    API.sendChat("/me Random puppy gif!: " + gifArray[randy].toString());
+                    API.sendChat("/me Random puppy gif! »  " + gifArray[randy].toString());
                 }
             }
         };
