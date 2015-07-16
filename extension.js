@@ -70,7 +70,7 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                 var sampleText = "hi";
-                    API.sendChat("/me hi dis is slanted" + sampleText + " hi");
+                    API.sendChat("/me hi dis is slanted" + sampleText + " hi!");
                 }
             }
         };
