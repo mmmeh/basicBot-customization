@@ -69,8 +69,8 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var sampleText = "hi";
-                    API.sendChat("/me hi dis is slanted" + sampleText + " hi!");
+                var sampleText = "edidable text";
+                    API.sendChat("/me hi this is slanted text " + sampleText + " hi!");
                 }
             }
         };
