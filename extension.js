@@ -56,7 +56,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Get AdBlock here for Chrome http://tinyurl.com/TrilonAdBlock");
+                    API.sendChat("/me Get AdBlock here for Chrome » http://tinyurl.com/TrilonAdBlock");
                 }
             }
         };
