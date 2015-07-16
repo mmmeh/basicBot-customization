@@ -65,6 +65,7 @@
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
     "online": "\/me %%BOTNAME%% v%%VERSION%% online!",
+    "test": "@%%NAME%% used this command! And it's not slanted!!",
     "welcome": "\/me Welcome %%NAME%%",
     "welcomeback": "\/me Welcome back, %%NAME%%",
     "songknown": "\/me @%%NAME%%, this song is in the DJ history.",
