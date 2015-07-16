@@ -70,7 +70,7 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                 //var sampleText = "edidable text";
-                    API.sendChat("Hi" +" @"+ chat.un +"!");
+                    API.sendChat("/me Hi" +" @"+ chat.un +"!");
                 }
             }
         };
