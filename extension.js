@@ -60,7 +60,7 @@
                 }
             }
         };
-        
+       
         bot.commands.testCommand = {
             command: 'test',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -69,8 +69,8 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var sampleText = "edidable text";
-                    API.sendChat("/me hi this is slanted text " + sampleText + " hi!");
+                //var sampleText = "edidable text";
+                    API.sendChat("Hi" +" @"+ chat.un +"!");
                 }
             }
         };
