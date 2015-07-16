@@ -61,8 +61,8 @@
             }
         };
        
-        bot.commands.testCommand = {
-            command: 'test',  //The command to be called. With the standard command literal this would be: !bacon
+        bot.commands.hiCommand = {
+            command: 'hi',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
@@ -70,7 +70,7 @@
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                 //var sampleText = "edidable text";
-                    //API.sendChat("/me Hey" +" @"+ chat.un +"!");
+                    API.sendChat("/me Hey" +" @"+ chat.un +"!");
                     API.sendChat(subChat(basicBot.chat.test, {name: chat.un}));
                 }
             }
